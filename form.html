@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up here</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h2>Register User</h2>
+                <div class="box">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="username" name="username" id="username" placeholder="Enter your username">
+                </div>
+                <div class="box">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Confirmm your password">
+                </div>
+                <div class="condition">
+                    <input type="checkbox" name="mycheckbox" id="condition" checked>
+                    <label for="condition">I accept all the terms and conditions</label>
+                </div>
+                <div class="btn" onclick="validate()">
+                    Create an account
+                </div>
+                <div class="foot">
+                    <label for="condition">Already have an account?</label>
+                    <a id="first" href="login.html" target="_blank">Login</a>
+                </div>
+                <br>
+            </form>
+        </div>
+        <script src="script.java"></script>
+    </body>
+</html>
